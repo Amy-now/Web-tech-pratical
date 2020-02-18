@@ -1,0 +1,41 @@
+*{
+    margin: 0%
+
+}
+
+body{
+    background : linear-gradient(180deg,  blue, green) no-repeat;
+    height: 100vh;
+}
+
+#form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+h1{
+    text-align: center
+}
+
+#form fieldset{
+    border: 1px solid rebeccapurple;
+}
+
+
+#form legend{
+    text-align: center;
+    border: 1px dotted;
+    color: maroon;
+    font-size: 25px
+}
+
+#form input[type="text"], input[type="tel"], input[type="email"] {
+    float: right;
+}
+
+#form input[type="submit"] {
+    margin-left: 25%
+    color
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Student Survey</h1>
+    <form action="#" id=form method="get">
+
+        <!----contact info-->
+
+        <fieldset>
+            <legend>contact info</legend>
+            <p><label for="name"> Name*: </label> <input type="text" id="name" name="name" required> </p>
+            <p><label for="email"> Email*: </label> <input type="email" id="email" name="email" required> </p>
+            <p><label for="number"> Number*: </label> <input type="tel" id="number" name="number"></p>
+            <p><label for="date"> What year are you in*: </label> <select name="year" id="date">
+                <option value=""> Please select </option>
+                <option value="1"> Year 1 </option>
+                <option value="2"> Year 2 </option>
+                <option value="3"> Year 3 </option>
+            </select required></p>
+
+        </fieldset>
+
+        <!----questions -->
+
+        <fieldset>  
+            
+            
+            <legend>questions</legend>
+            <p>
+                <label for="rating"> What Electronic device do you use?  </label>
+                <p><input type="checkbox" name="rating" value="Computer"> Computer</p>
+                <p><input type="checkbox" name="rating" value="ebook"> ebook </p>
+                <p><input type="checkbox" name="rating" value="phone"> phone </p>
+            </p>
+        
+
+            <p> 
+                <label for="hours">  How many hours a day do you spend using electronic devices?   </label>
+                <p><input type="radio" name="hours" value="1"> 1 Hour </p>
+                <p><input type="radio" name="hours" value="2"> 2 Hours </p>
+                <p><input type="radio" name="hours" value="3+"> 3 Hours + </p>
+            </p>
+    
+        </fieldset>
+
+        <p> <label  for="suggestion"> Any other comments </label> </p>
+        
+        <p>
+        <textarea name="suggestions" rows="5" cols="25">
+        </textarea>
+        </p>
+
+        <p><input type="submit" value="Submit"> </p>
+    
+    </form>
+
+</body>
+</html>
