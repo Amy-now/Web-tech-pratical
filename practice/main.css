@@ -1,7 +1,51 @@
-h1{ float: left;
 
-color: palevioletred;}
+nav ul li{
+    display: inline;
+}
 
-body{
-    background-color: powderblue;
+nav{
+    text-align: center;
+}
+
+
+#the_list{
+
+    background-color: aqua;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 3%;
+
+}
+
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {
+    
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 480px) {
+
+}
+
+      
+/* Custom, iPhone Retina */ 
+@media (max-width : 320px) {
+
+    h1{ 
+        font-size: 15px;
+    }
+
 }
