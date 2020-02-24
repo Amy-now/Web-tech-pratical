@@ -1,5 +1,10 @@
-nav ul li{
+#the_survay{
+    text-align: center;
+    width: 500px;
+}
 
-    display: inline;
-    
+#the_survay input[type="text"]{
+
+    float: right
+
 }
