@@ -1,6 +1,7 @@
 #the_survay{
     text-align: center;
     width: 500px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #the_survay input[type="text"]{
@@ -8,3 +9,82 @@
     float: right
 
 }
+
+#first_section{
+    text-align: center;
+}
+
+#second_section{
+
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #the_survay{
+        float: left;
+    }
+  }
+
+
+  @media only screen and (max-width: 508px) {
+    body {
+      background-color: lightblue;
+    }
+    #the_survay{
+        text-align: center;
+        width: 400px;
+    }
+  }
+
+
+  @media only screen and (max-width: 408px) {
+    body {
+      background-color: lightblue;
+    }
+    #the_survay{
+        text-align: center;
+        width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 308px) {
+    body {
+      background-color: lightblue;
+    }
+    #the_survay{
+        text-align: center;
+        width: 250px;
+    }
+    h1{
+        font-size: 30px
+    }
+    element.style {
+        padding: 30px;
+    }
+
+    #the_survay p {
+    
+        padding: 30px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 260px) {
+    body {
+      background-color: lightblue;
+    }
+    #the_survay{
+        text-align: center;
+        width: 200px;
+    }
+    h1{
+        font-size: 20px
+    }
+    h2{
+        font-size: 15px 
+    }
+  }
