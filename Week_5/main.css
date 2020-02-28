@@ -17,6 +17,32 @@
 #second_section{
 
     text-align: center;
+
+}
+
+
+
+.block {
+  width: 50%;
+  float: left;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.one {
+  background: yellow;
+}
+
+.two {
+  background: lightblue;
+}
+
+.three {
+  background: orange;
+}
+
+.four {
+  background: red;
 }
 
 

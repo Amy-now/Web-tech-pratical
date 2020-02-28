@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TCA</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="#" >News</a></li> 
                     </ul>
                 </nav>
             </header>
@@ -28,16 +29,14 @@
 
             <h1>heading 1</h1>
 
-            <Section class="section 1">
+            <Section class="left">
                 
                 <h2>section 1</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, placeat quaerat facere maxime tenetur nostrum distinctio autem, molestias cupiditate necessitatibus, amet maiores doloribus temporibus. Deserunt explicabo dolorem ad laudantium asperiores?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloribus illum rerum animi corrupti vel sunt nobis? Maxime eaque temporibus, labore, quas debitis dignissimos exercitationem eum omnis est vitae incidunt?</p>
 
             </Section>
-
-
-            <Section class="section 2">
+            <Section class="right">
 
                 <h2>section 2</h2>
 
@@ -45,37 +44,50 @@
 
             </Section>
 
+            <div class="clear"></div>
 
-            <Section class="section 3">
+            <Section class="left">
 
                 <h2>section 3</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, placeat quaerat facere maxime tenetur nostrum distinctio autem, molestias cupiditate necessitatibus, amet maiores doloribus temporibus. Deserunt explicabo dolorem ad laudantium asperiores?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloribus illum rerum animi corrupti vel sunt nobis? Maxime eaque temporibus, labore, quas debitis dignissimos exercitationem eum omnis est vitae incidunt?</p>
 
             </Section>
-
-
-            <Section class="section 4">
+            <Section class="right">
 
                 <h2>section 4</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, placeat quaerat facere maxime tenetur nostrum distinctio autem, molestias cupiditate necessitatibus, amet maiores doloribus temporibus. Deserunt explicabo dolorem ad laudantium asperiores?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloribus illum rerum animi corrupti vel sunt nobis? Maxime eaque temporibus, labore, quas debitis dignissimos exercitationem eum omnis est vitae incidunt?</p>
 
             </Section>
 
+            <div class="clear"></div>
 
-            <Section class="contact us">
+            <Section id="contact us">
 
                 <h2>Contact us </h2>
 
-                <fieldset class=details>
-                    <legend>contact us</legend>
-                    <p><label for="name"> First Name: </label> <input type="text" id="First name" name="name" required> </p>
-                    <p><label for="email"> Last Name: </label> <input type="text" id="name" name="email" required> </p>
-                    <p><label for="number"> Email: </label> <input type="email" id="email" name="email"></p>
-                    <p><label for="text"> Message: </label> <input name="text" id="message"name="message"></p>
+                <fieldset class="details">
 
-                    </select required></p>
+                    <div class="text"><p>
+                        <label for="name"> First Name: </label> <input type="text" id="First name" name="name" required> </p>
+                    </div>
+
+                    <div class="text">                
+                        <label for="email"> Last Name: </label> <input type="text" id="name" name="email" required> 
+                    </div>  
+                    
+                    <div class="text">                  
+                        <label for="number"> Email: </label> <input type="email" id="email" name="email">
+                    </div>  
+
+                    <div class="text">                     
+                        <label>Message:</label> <input type="text" id="message" name="Message">
+                    </div>
+                    
+                    
+                    <p class="submit">
+                        <input type="Submit" value="Send Message"> </p>
         
                 </fieldset>
 
@@ -85,7 +97,7 @@
         </div><!-- /#main_section  -->
 
 
-        <div id="footer">
+        <div class="footer">
 
             <footer>
                 <p>Copyright ACME Corp</p>
